@@ -31,3 +31,5 @@ describe('App: AngularCliDefaultProjectWithException', () => {
     expect(compiled.querySelector('h1').textContent).toContain('app works!');
   }));
 });
+
+throw new Error('Some error');
